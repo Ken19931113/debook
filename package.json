@@ -1,0 +1,37 @@
+{
+  "name": "debook",
+  "version": "1.0.0",
+  "description": "區塊鏈驅動的長期租賃平台，結合 NFT 與 DeFi 創新",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@web3modal/ethereum": "^2.7.1",
+    "@web3modal/react": "^2.7.1",
+    "axios": "^1.8.4",
+    "ethers": "^5.7.2",
+    "next": "^15.2.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "styled-components": "^6.1.16",
+    "wagmi": "^1.4.13"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.2.0",
+    "@types/node": "^22.13.14",
+    "@types/react": "^19.0.12",
+    "dotenv": "^16.4.7",
+    "eslint": "^9.23.0",
+    "hardhat": "^2.22.19",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "contractName": "DeFiIntegration",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_stablecoin",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_treasury",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_rentalId",
+          "type": "uint256"
+        }
+      ],
+      "name": "estimateCurrentYield",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "baseYield",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "plusYield",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ]
+}
